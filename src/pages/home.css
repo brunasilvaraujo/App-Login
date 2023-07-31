@@ -1,0 +1,61 @@
+.arrow-container {
+    display: flex;
+    align-items: center;
+}
+
+.arrow-container:hover 
+.arrow,
+.arrow-container:hover 
+.arrow2  {
+    transform: translateX(-54px);
+  }
+
+.arrow {
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 2;
+    background-color: #e5d822;
+    left: 57%;
+    bottom: 48.4%;
+    border-bottom: 1px solid #e5d822;
+    transition: transform 0.3s ease-in-out;
+}
+
+.line{
+    width: 6.56281rem;
+    height: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: #e5d822;
+    left: 42.2%;
+    bottom: 49.2%;
+    border-bottom: 3px solid #e5d822;
+    transition: 0.2s;
+}
+
+.arrow2 {
+    width: 15px;
+    height: 15px;
+    transform: rotate(45deg);
+    position: absolute;
+    z-index: 2;
+    background-color: #e5d822;
+    left: 57%;
+    bottom: 38.4%;
+    border-bottom: 1px solid #e5d822;
+    transition: transform 0.3s ease-in-out;
+}
+
+.line2{
+    width: 6.56281rem;
+    height: 0;
+    position: absolute;
+    z-index: 2;
+    background-color: #e5d822;
+    left: 42.2%;
+    bottom: 39.2%;
+    border-bottom: 3px solid #e5d822;
+    transition: 0.2s;
+}
